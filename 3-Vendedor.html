@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let nome = prompt("Qual o seu nome?");
+      let salario = Number(prompt("Qual o seu salario"));
+      let vendas = Number(prompt("Digite aqui as vendas efetuadas"));
+      let comissão = Number(vendas * 0.15);
+      let salariofinal = salario + comissão;
+
+      window.alert(
+        `Seu nome é ${nome} seu salario é ${salario} seu salario final foi de ${salariofinal}`
+      );
+    </script>
+  </body>
+</html>

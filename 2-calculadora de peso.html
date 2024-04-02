@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let Sexo = window.prompt("Digite seu sexo aqui{M ou F}")
+        let Altura = Number(window.prompt("Digite sua altura aqui"))
+        let PesoIdealM = 72.7* Altura - 58
+        let PesoIdealF = 62.1* Altura - 44.7
+
+        if (Sexo ==="M") {
+            alert(`seu peso ideal é de ${PesoIdealM.toFixed(2)}`);
+            
+        }else if(Sexo ==="F") {
+            alert(`seu peso ideal é de ${PesoIdealM.toFixed(2)}`);
+        }
+        else{
+            alert("sexo invalido");
+        }
+    </script> 
+
+
+
+    </script>
+</body>
+</html>
